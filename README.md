@@ -1,301 +1,163 @@
-# 🛡️ TryHackMe Cybersecurity Learning Journey
+# 🛡️ TryHackMe - Cyber Security 101
 
-> Documenting my hands-on cybersecurity learning journey through TryHackMe labs, practical exercises, personal notes, and real-world projects.
+> Documenting my learning journey through the **Cyber Security 101** learning path on TryHackMe with personal notes, practical labs, commands, diagrams, and hands-on exercises.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/NATTOMR/TryHackMe-Cybersecurity-Journey)
-![GitHub repo size](https://img.shields.io/github/repo-size/NATTOMR/TryHackMe-Cybersecurity-Journey)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-success)
+![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)
+![Learning%20Path](https://img.shields.io/badge/Learning%20Path-Cyber%20Security%20101-blue)
 
 ---
 
 # 📖 About
 
-This repository serves as the central hub for my cybersecurity learning journey.
+This repository contains my personal learning notes and practical exercises while completing the **Cyber Security 101** learning path on TryHackMe.
 
-Instead of publishing walkthroughs or room answers, I document:
+The goal of this repository is to document my progress, reinforce cybersecurity concepts, and build a professional portfolio of hands-on learning.
 
-- Personal notes
-- Hands-on labs
-- Commands and cheat sheets
-- Security concepts
-- Network diagrams
-- Packet captures
-- Practical exercises
-- Learning summaries
-- Mini projects
-
-My goal is to build a strong foundation in:
-
-- Defensive Security
-- Security Operations Center (SOC)
-- Digital Forensics
-- Threat Detection
-- Incident Response
-- Network Security
-- Web Security
-- Malware Analysis
-- Ethical Hacking
+> **Note:** This repository contains my own notes and lab documentation. It does **not** include room flags, walkthroughs, or assessment answers.
 
 ---
 
-# 🎯 Learning Roadmap
+# 🎯 Learning Objectives
 
-| No. | Learning Module | Status | Repository |
-|-----:|----------------|:------:|------------|
-| 01 | Start Your Cybersecurity Journey | ⬜ | THM-01-Start-Your-Cybersecurity-Journey |
-| 02 | Linux Fundamentals | ⬜ | THM-02-Linux-Fundamentals |
-| 03 | Windows Fundamentals | ⬜ | THM-03-Windows-Fundamentals |
-| 04 | Command Line | ⬜ | THM-04-Command-Line |
-| 05 | Networking | ⬜ | THM-05-Networking |
-| 06 | Cryptography | ⬜ | THM-06-Cryptography |
-| 07 | Exploitation Basics | ⬜ | THM-07-Exploitation-Basics |
-| 08 | Web Hacking | ⬜ | THM-08-Web-Hacking |
-| 09 | Offensive Security Tooling | ⬜ | THM-09-Offensive-Security-Tooling |
-| 10 | Defensive Security | ⬜ | THM-10-Defensive-Security |
-| 11 | Security Solutions | ⬜ | THM-11-Security-Solutions |
-| 12 | Defensive Security Tooling | ⬜ | THM-12-Defensive-Security-Tooling |
-| 13 | Build Your Cybersecurity Career | ⬜ | THM-13-Build-Your-Cybersecurity-Career |
-| 14 | OWASP Top 10 (2025) | ⬜ | THM-14-OWASP-Top-10-2025 |
+- Build a strong cybersecurity foundation
+- Understand networking fundamentals
+- Learn Linux and Windows basics
+- Practice command-line skills
+- Explore offensive and defensive security concepts
+- Develop practical cybersecurity skills
 
 ---
 
-# 🗂 Repository Structure
+# 📚 Cyber Security 101 Roadmap
+
+| Module | Status | Notes |
+|---------|:------:|------|
+| 🟩 Networking Concepts | ⬜ | |
+| 🟩 Networking Essentials | ⬜ | |
+| 🟩 Networking Core Protocols | ⬜ | |
+| 🟩 Networking Secure Protocols | ⬜ | |
+| 🟩 Wireshark: The Basics | ⬜ | |
+| 🟩 Tcpdump: The Basics | ⬜ | |
+| 🟩 Nmap: The Basics | ⬜ | |
+| 🟩 Topic Rewind Recap | ⬜ | |
+
+---
+
+# 📂 Repository Structure
 
 ```
-TryHackMe-Cybersecurity-Journey
+THM-Cyber-Security-101
 │
-├── THM-01-Start-Your-Cybersecurity-Journey
-├── THM-02-Linux-Fundamentals
-├── THM-03-Windows-Findows
-├── THM-04-Command-Line
-├── THM-05-Networking
-├── THM-06-Cryptography
-├── THM-07-Exploitation-Basics
-├── THM-08-Web-Hacking
-├── THM-09-Offensive-Security-Tooling
-├── THM-10-Defensive-Security
-├── THM-11-Security-Solutions
-├── THM-12-Defensive-Security-Tooling
-├── THM-13-Build-Your-Cybersecurity-Career
-└── THM-14-OWASP-Top-10-2025
+├── README.md
+│
+├── 01-Networking-Concepts/
+│   ├── README.md
+│   ├── notes.md
+│   ├── commands.md
+│   ├── diagrams/
+│   └── screenshots/
+│
+├── 02-Networking-Essentials/
+│
+├── 03-Networking-Core-Protocols/
+│
+├── 04-Networking-Secure-Protocols/
+│
+├── 05-Wireshark-The-Basics/
+│
+├── 06-Tcpdump-The-Basics/
+│
+├── 07-Nmap-The-Basics/
+│
+└── 08-Topic-Rewind-Recap/
 ```
 
 ---
 
-# 📚 Skills Roadmap
+# 🛠 Skills Covered
 
-## Networking
-
+- Networking Fundamentals
 - OSI Model
 - TCP/IP
 - DNS
 - DHCP
-- HTTP/HTTPS
+- HTTP / HTTPS
 - SSH
-- FTP
+- TLS
 - VPN
 - Wireshark
 - Tcpdump
 - Nmap
+- Packet Analysis
+- Network Troubleshooting
 
 ---
 
-## Linux
+# 🧰 Tools
 
-- Linux Commands
-- Bash
-- File Permissions
-- Process Management
-- Networking
-- SSH
-- System Administration
-
----
-
-## Windows
-
-- Windows Architecture
-- Registry
-- Services
-- Event Logs
-- Active Directory Basics
-- PowerShell
-
----
-
-## Web Security
-
-- HTTP Protocol
-- Cookies
-- Sessions
-- Authentication
-- SQL Injection
-- XSS
-- CSRF
-- File Upload
-- IDOR
-- Burp Suite
-
----
-
-## Cryptography
-
-- Symmetric Encryption
-- Asymmetric Encryption
-- Hashing
-- Digital Signatures
-- Certificates
-- PKI
-
----
-
-## Offensive Security
-
-- Enumeration
-- Scanning
-- Exploitation
-- Password Attacks
-- Hydra
-- Gobuster
-- SQLMap
-- Metasploit
-
----
-
-## Defensive Security
-
-- SOC Operations
-- SIEM
-- Log Analysis
-- Threat Hunting
-- Detection Engineering
-- Incident Response
-- Malware Analysis
-- Digital Forensics
-
----
-
-## Enterprise Security
-
-- Firewalls
-- IDS
-- IPS
-- WAF
-- Endpoint Security
-- Vulnerability Management
-- Security Monitoring
-
----
-
-# 🛠 Tools
-
+- TryHackMe
 - Kali Linux
-- Ubuntu
-- Windows
 - Wireshark
 - Tcpdump
 - Nmap
-- Burp Suite
-- Gobuster
-- Hydra
-- SQLMap
-- Metasploit
-- Wazuh
-- Splunk
-- Microsoft Sentinel
-- Velociraptor
-- REMnux
-- FlareVM
-- CAPA
-- Autopsy
+- Windows
+- Linux Terminal
 
 ---
 
-# 📂 Documentation
+# 📝 Documentation Format
 
-Each repository contains:
+Each module contains:
 
-- Learning Objectives
-- Notes
-- Commands
-- Cheat Sheets
-- Diagrams
-- Screenshots
-- Practical Labs
-- Mini Projects
-- Key Takeaways
-- References
-
----
-
-# 📈 Progress Tracker
-
-| Module | Progress |
-|---------|---------:|
-| Cybersecurity Fundamentals | 0% |
-| Linux | 0% |
-| Windows | 0% |
-| Networking | 0% |
-| Cryptography | 0% |
-| Web Security | 0% |
-| Offensive Security | 0% |
-| Defensive Security | 0% |
-| Security Solutions | 0% |
-| Career Development | 0% |
-
-> Update these percentages as you complete each section.
+- 📌 Overview
+- 🎯 Learning Objectives
+- 📖 Notes
+- 💻 Commands
+- 🧪 Practical Exercises
+- 📷 Screenshots
+- 📊 Diagrams
+- ✅ Key Takeaways
+- 📚 References
 
 ---
 
-# 🚀 Future Learning
+# 📈 Progress
 
-- SOC Level 1
-- SOC Level 2
-- Active Directory Security
-- Blue Team Labs
-- Malware Analysis
-- Reverse Engineering
-- Cloud Security
-- AWS Security
-- Azure Security
-- Microsoft Sentinel
-- Splunk Enterprise Security
-- DFIR
-- Threat Intelligence
-- Detection Engineering
-- Purple Teaming
-- Red Team Operations
-- Mobile Security
-- API Security
-- Kubernetes Security
-- Container Security
+| Progress | Completion |
+|----------|------------|
+| Overall Progress | 0% |
+
+Update this progress as you complete each module.
 
 ---
 
-# 🎯 Goals
+# 🚀 Future Improvements
 
-- Build a strong cybersecurity foundation
-- Master networking and operating systems
-- Develop practical offensive and defensive skills
-- Build a professional GitHub portfolio
-- Prepare for SOC Analyst roles
-- Contribute to the cybersecurity community
+- Add personal networking diagrams
+- Create command cheat sheets
+- Include packet capture examples
+- Add mini networking labs
+- Document troubleshooting scenarios
 
 ---
 
 # 📜 Disclaimer
 
-This repository contains my personal learning notes and lab documentation created while studying cybersecurity. It does **not** include TryHackMe flags, assessment answers, or copyrighted walkthroughs.
+This repository contains my personal learning notes and lab documentation created while studying the **Cyber Security 101** learning path on TryHackMe.
+
+It does **not** include room answers, flags, or copyrighted walkthroughs.
 
 ---
 
-# 📬 Connect With Me
+## 👨‍💻 Author
 
-- **GitHub:** https://github.com/NATTOMR
-- **LinkedIn:** *(Add your LinkedIn profile)*
-- **TryHackMe:** *(Add your TryHackMe profile)*
+**Natto Muni Chakma**
+
+- 🎓 B.Tech Computer Science & Engineering
+- 🛡️ Cybersecurity Enthusiast
+- 🌐 TryHackMe Learner
 
 ---
 
-⭐ **If you find this repository useful, feel free to star it and follow my cybersecurity journey!**
+⭐ *Learning cybersecurity one lab at a time.*
